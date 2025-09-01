@@ -1,0 +1,33 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+    gap: 10px;
+    align-items: center;
+    margin: 70px;
+    flex-wrap: wrap;
+
+
+}
+.crd{
+    background-color: gray;
+    height: 40%;
+    width: 100%;
+
+}
+.Card h1{
+    font-size: large;
+}
+
+.Card button{
+    padding: 7px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+.Card button:hover{
+    color: white;
+    background-color: #000;
+}

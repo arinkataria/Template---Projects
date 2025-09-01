@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  width: 100%;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  padding: 0px 50px;
+}
+.left {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: large;
+}
+.lnk {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  display: flex;
+  gap: 20px;
+  display: inline-flex;
+  padding-left: 25px;
+}
+.lnk:hover {
+  color: orange;
+}
+.right button {
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+.dropdown {
+  display: none;
+  flex-direction: column;
+  border: 1px solid #000;
+  position: absolute;
+  padding: 20px;
+  top: 8vh;
+  font-size: large;
+  color: #000;
+  gap: 10px;
+  left: 25%;
+  
+  
+}
+
+.shop:hover .dropdown {
+  display: flex;   /* or block, but flex is better since you already use flex-direction */
+}
+.shop {
+  position: relative; /* important so dropdown aligns under this */
+}
+
