@@ -1,0 +1,31 @@
+.footer{
+    position: absolute;
+    display: flex;
+    bottom: -700px;
+}
+.divs{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    padding: 50px;
+
+
+}
+.div1,.div2,.div3,.div4 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}   
+.divs p{
+    margin-top: 15px;
+}
+.div4{
+    flex-wrap: wrap;
+    display: flex;
+
+    flex-direction: column;
+    width: 200px;
+}
+

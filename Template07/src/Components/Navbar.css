@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-size: large;
+}
+.mid a{
+    padding: 7px 28px;
+    margin: 0px 5px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.mid a:hover{
+    background-color: rgb(5, 165, 228);
+    color: white;
+    border-radius: 30px;
+}
+.right button{
+    padding: 10px 35px;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 0px 25px;
+    font-size: large;
+}
+
+.right button:hover{
+    background-color: rgb(5, 183, 254);
+    color: white;
+}

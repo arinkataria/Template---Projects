@@ -1,0 +1,42 @@
+.signin{
+    border: 1px solid #000;
+    width: 350px;
+    height:500px;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+    }
+
+.signin button{
+    width: 100%;
+    height: 35px;
+    color: rgb(22, 18, 18);
+    color: white;
+    background-color: rgb(4, 180, 249);
+    border-radius: 30px;
+}
+.flex{
+    display: flex;
+}
+.signin input{
+    height: 30px;
+    padding-left: 10px;
+    width: 80%;
+    border: 1px solid #000;
+}
+.flex button{
+    padding: 8px 30px;
+    background-color: rgb(4, 162, 234);
+    border-radius: 30px;
+    margin: 20px;
+    height: 35px;
+    color: white;
+
+}

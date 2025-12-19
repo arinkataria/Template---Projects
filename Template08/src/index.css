@@ -1,0 +1,49 @@
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding: 40px 80px;
+    gap: 40px;
+}
+main *{
+    background-color: white;
+    
+}
+.right{
+    width: 35vw;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left h1{
+    font-size: 80px;
+    line-height: 1.2;
+}
+.left p{
+    font-size: medium;
+    color: gray;
+}
+.left .btns .btn{
+    padding: 8px 20px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.black-white{
+    color: black;
+    background-color: white;
+    padding: 8px 20px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+}

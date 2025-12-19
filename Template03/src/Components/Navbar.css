@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-size: larger;
+    background-color: black;
+    position: sticky;
+    
+}
+.lnk{
+    text-decoration: none;
+    color:#707a8c;
+}
+.nl{
+    display: inline-flex;
+    margin: 14px;
+    font-size: 19px;
+    text-decoration: none;
+    color:#707a8c;
+    
+}
+.nl:hover{
+    color: white;
+}
+nav svg{
+    filter: invert(1);
+}

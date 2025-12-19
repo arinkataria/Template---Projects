@@ -1,0 +1,12 @@
+.slot{
+    height: 60px;
+    width: 100px;
+}
+.slot svg{
+    height: 24px;
+    width: 24px;
+}
+.slot{
+    display: flex;
+    gap: 10px;
+}
